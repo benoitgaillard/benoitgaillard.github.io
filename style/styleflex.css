@@ -1,7 +1,6 @@
 html, body {
   margin:0;
   padding:0;
-  height:100%;
 }
 
 html {
@@ -24,7 +23,6 @@ p {
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     text-align: center;
-    min-height:100%;
 }
 
 

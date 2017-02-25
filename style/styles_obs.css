@@ -1,0 +1,103 @@
+*{
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#tete
+{
+  /*background-image:url("../images/transparentcroppedscaledunicorn.jpg");*/
+  background-color:dimgray;
+  background-size:100%;
+  background-repeat:no-repeat;
+  height:100px;
+  }
+
+#tete_title{
+  text-align:center;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+a:link , a:visited
+{
+text-decoration:none;
+color:Black;
+font-style: italic;
+}
+#button_lang
+{
+  text-align:left;
+  font-weight: bold;
+  color:#000000;
+}
+
+/*#tete_in
+
+/*{*/
+/*  text-align:center;*/
+/*  font-variant: small-caps;*/
+/*  font-size: 1.5em;*/
+/*  font-weight: bold;*/
+/*  background-image:url("../images/smallercroppedice.JPG");*/
+/*  background-size:100%;*/
+/*  background-repeat:no-repeat;*/
+/*  height:150px;*/
+/*  }*/
+
+#menu
+ul
+{
+  text-align:center;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+li
+{
+  display:inline;
+}
+#menu
+a:link,a:visited
+{
+text-align:center;
+padding:25px;
+text-decoration:none;
+}
+
+#contenu
+{
+margin-right:150px;
+margin-left:150px;
+
+background-image:url("../images/transparententranslategraph.png");
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+ul.incontent{
+  list-style-type:square;
+}
+li.incontent
+{
+display:list-item;
+}
+#publist
+{
+}
+h3.pubsection{font-variant: small-caps;font-weight: bold;}
+p.pubitem{margin-left:100px;}
+span.pubtitle{font-weight: bold;}
+span.pubauthor{}
+span.pubref{font-style: italic;}
+span.pubyear{font-weight: bold;}
+
+ul.cvs
+{
+  text-align:center;
+}
+li.cvs
+{
+  display:inline;
+  padding:20px;
+  font-weight: bold;
+}
